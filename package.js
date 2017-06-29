@@ -77,6 +77,11 @@ Package.onTest(function (api) {
 
     api.addFiles('lib/query/testing/server.test.js', 'server');
     api.addFiles('lib/query/testing/client.test.js', 'client');
+    
+    
+    // REACTIVE COUNTS
+    api.addFiles('lib/query/counts/testing/server.test.js', 'server');
+    api.addFiles('lib/query/counts/testing/client.test.js', 'client');
 
     // NAMED QUERY
     api.addFiles('lib/namedQuery/testing/bootstrap/both.js');
